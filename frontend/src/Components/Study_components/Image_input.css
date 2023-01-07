@@ -1,0 +1,17 @@
+.image_dropper{
+    height: 50vh;
+    width:70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 8px dotted black;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+.image_dropper > img{
+    /* scale: 0.1; */
+    align-items: center;
+    justify-content: center;
+    height: 260px;
+        width:260px;
+}

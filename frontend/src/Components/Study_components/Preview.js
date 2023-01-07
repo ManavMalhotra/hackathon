@@ -56,7 +56,7 @@ export default function Preview() {
                   height: "430px",
                   width: "80%",
                   borderRadius: "100px",
-                  backgroundColor: "white",
+                  backgroundColor: "#afc1df",
                   display: "flexbox",
                   marginLeft: "5%",
                   paddingLeft: "60px",

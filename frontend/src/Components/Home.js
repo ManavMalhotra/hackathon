@@ -60,7 +60,9 @@ function Home() {
           </Button>
         </div>
       </div>
-      <TestimonialSlider />
+      <div className="testimonial">
+        <TestimonialSlider />
+      </div>
     </div>
   );
 }

@@ -30,6 +30,11 @@
     justify-content: center;
     margin-bottom: 3vw;
 }
+.testimonial{
+    box-shadow: 0 5px 10px rgba(154, 160, 185, .05), 0 15px 40px rgba(166, 173, 201, .2);
+    border-radius: 30px;
+    margin:60px;
+}
 
 .btn:hover {
     background-color: #4d84e2;

@@ -5,7 +5,7 @@ import "./slider.css";
 
 const TestimonialSlider = () => {
   const settings = {
-    dots: true,
+    dots: false,
     autoplay: true,
     infinite: true,
     speed: 1000,
@@ -17,9 +17,22 @@ const TestimonialSlider = () => {
   return (
     <Slider
       {...settings}
-      style={{ width: "80%", padding: "80px", marginLeft: "10vw" }}
+      style={{
+        width: "80%",
+        padding: "80px",
+        marginLeft: "10vw",
+        backgroundColour: "#afc1df",
+      }}
     >
       <div>
+        <img
+          src="./av-5.png"
+          style={{
+            height: "160px",
+            width: "160px",
+            marginLeft: "24.5vw",
+          }}
+        />
         <p className="review__text">
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
           atque, quam minus totam maiores laborum! Impedit consectetur illum
@@ -27,10 +40,18 @@ const TestimonialSlider = () => {
           quis dolorem quas!"
         </p>
         <div className=" slider__content d-flex align-items-center gap-3 ">
-          <h6>Jhon Doe</h6>
+          <h5>Jhon Doe</h5>
         </div>
       </div>
       <div>
+        <img
+          src="./av-5.png"
+          style={{
+            height: "160px",
+            width: "160px",
+            marginLeft: "24.5vw",
+          }}
+        />
         <p className="review__text">
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
           atque, quam minus totam maiores laborum! Impedit consectetur illum
@@ -38,10 +59,18 @@ const TestimonialSlider = () => {
           quis dolorem quas!"
         </p>
         <div className="slider__content d-flex align-items-center gap-3 ">
-          <h6>Mitchell Marsh</h6>
+          <h5>Mitchell Marsh</h5>
         </div>
       </div>
       <div>
+        <img
+          src="./av-5.png"
+          style={{
+            height: "160px",
+            width: "160px",
+            marginLeft: "24.5vw",
+          }}
+        />
         <p className="review__text">
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
           atque, quam minus totam maiores laborum! Impedit consectetur illum
@@ -49,7 +78,7 @@ const TestimonialSlider = () => {
           quis dolorem quas!"
         </p>
         <div className="slider__content d-flex align-items-center gap-3 ">
-          <h6>Steven Crock</h6>
+          <h5>Steven Crock</h5>
         </div>
       </div>
     </Slider>
