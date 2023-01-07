@@ -1,0 +1,16 @@
+.searchBar input {
+    padding-left: 20px;
+    margin-left: 30vw;
+        margin-top: 5vh;
+        margin-bottom: 15vh;
+}
+
+#placeholder {
+    margin-left: 30vw;
+    margin-top: 5vh;
+    margin-bottom: 15vh;
+    border: 1px solid black;
+    height: 4vh;
+    width: 30vw;
+    border-radius: 30px;
+}
