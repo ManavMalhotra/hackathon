@@ -54,10 +54,10 @@ Prerequisites
 
 ## Authors
 
-    [Manav Malhotra](https://github.com/ManavMalhotra) 
-    [Sai Chaitanya](https://github.com/#)
-    [Shivam Dubey](https://github.com/WebShivam)
-    [Sambath Sundar](https://github.com/Sam-Radnus)
+  -  <a href="https://github.com/ManavMalhotra"> Manav Malhotra </a> 
+  -  <a href="https://github.com/#"> Krishna Sai Chaitanya </a>
+  -  <a href="https://github.com/WebShivam"> Shivam Dubey </a>
+  -  <a href="https://github.com/Sam-Radnus"> Sambath Sundar</a>
 
 ## License
 
