@@ -1,11 +1,14 @@
 import { Button } from "@mui/material";
-import React from "react";
+import React, { useRef } from "react";
 import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
 import "./home.css";
+import ScrollTop from "./ScrollTop";
 
 function Home() {
+  let mainDiv = useRef();
   return (
-    <div className="main">
+    <div className="main" ref={mainDiv}>
+      <ScrollTop parent={mainDiv} />
       <div class="second1">
         <p style={{ fontFamily: "Montserrat" }}>
           <i>

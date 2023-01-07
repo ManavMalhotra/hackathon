@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
-import { Switch, Route, BrowserRouter as Router } from "react-router-dom";
+import { Route, Switch } from "react-router";
+import { BrowserRouter as Router } from "react-router-dom";
 import Header from "./Components/App_bar";
 import Footer from "./Components/Footer";
 import Login from "./Components/Login";
@@ -15,6 +16,7 @@ function App() {
       {/* <Registration /> */}
       <Home />
       <Footer />
+
       {/* <Router>
         <Route exact path="/">
           <Header />
