@@ -1,0 +1,28 @@
+#placeholder-1 {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    border: 1px solid black;
+    height: 30vh;
+    width: 80vw;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 30px;
+}
+.btn-4 {
+    width: 150px;
+    background-color: #5995fd;
+    border: none;
+    outline: none;
+    height: 49px;
+    border-radius: 49px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3vw;
+}

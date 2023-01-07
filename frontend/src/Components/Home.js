@@ -3,6 +3,8 @@ import React, { useRef } from "react";
 import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
 import "./home.css";
 import ScrollTop from "./ScrollTop";
+import { Link } from "react-router-dom";
+import TestimonialSlider from "./Testimonials";
 
 function Home() {
   let mainDiv = useRef();
@@ -36,10 +38,12 @@ function Home() {
           <Button
             style={{ height: "500px", width: "500px", borderRadius: "50%" }}
           >
-            <img
-              src="./fun.jpg"
-              style={{ height: "500px", width: "500px", borderRadius: "50%" }}
-            />
+            <Link to={"./fun"}>
+              <img
+                src="./fun.jpg"
+                style={{ height: "500px", width: "500px", borderRadius: "50%" }}
+              />
+            </Link>
           </Button>
         </div>
         <div className="button-1">
@@ -47,13 +51,16 @@ function Home() {
           <Button
             style={{ height: "500px", width: "500px", borderRadius: "50%" }}
           >
-            <img
-              src="./study.jpg"
-              style={{ height: "500px", width: "500px", borderRadius: "50%" }}
-            />
+            <Link to={"./study"}>
+              <img
+                src="./study.jpg"
+                style={{ height: "500px", width: "500px", borderRadius: "50%" }}
+              />
+            </Link>
           </Button>
         </div>
       </div>
+      <TestimonialSlider />
     </div>
   );
 }

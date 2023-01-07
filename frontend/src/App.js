@@ -10,15 +10,17 @@ import Home from "./Components/Home";
 import Blog from "./Components/Blog";
 import Study_mainPage from "./Components/Study_components/Study_mainPage";
 import Fun_mainPage from "./Components/Fun_components/Fun_mainPage";
+import Text_input from "./Components/Study_components/Text_input";
 
 function App() {
   return (
     <div className="App">
-      {/* <Header /> */}
+      {/* <Header />
       {/* <Login /> */}
       {/* <Registration /> */}
-      {/* <Home />
-      <Footer /> */}
+      {/* <Home /> */}
+      {/* <Text_input />
+      <Footer />  */}
 
       <Routes>
         <Route
