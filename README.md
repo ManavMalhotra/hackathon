@@ -11,3 +11,54 @@ In addition to this, NotePal also allows students to add tags to their notes, ma
 After students have finished writing their notes, they can share them on the platform's feed, where they can be accessed by other users. This helps to build a community of students who can collaborate and share their notes with one another, ultimately leading to a better understanding of the material.
 
 Overall, NotePal is a valuable tool for students looking to improve their note-taking skills and save time studying. It is user-friendly and easy to use, making it a great resource for students of all levels.
+
+## Features:
+
+   - Real-time collaboration on notes
+   - Chat functionality to communicate with other users
+   - Easy note creation and organization
+   - Responsive design for optimal viewing on any device
+
+## Getting Started:
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+Prerequisites
+
+  -  Node.js
+  -  npm
+  -  MongoDB
+
+## Installation
+
+   - Clone the repository
+
+`git clone https://github.com/[username]/[repository-name].git`
+
+   - Install dependencies
+
+`npm install`
+
+   - Start the development server
+
+`npm run dev`
+
+   - Open a browser and navigate to http://localhost:3000
+
+## Built With:
+
+  -  MongoDB - Database
+  -  Express.js - Back-end framework
+  -  React.js - Front-end framework
+  -  Node.js - JavaScript runtime
+  -  ChatGPT API - Real-time collaboration and communication
+
+## Authors
+
+    Manav Malhotra 
+    Sai Chaitanya
+    Shivam Dubey
+    Sambath
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
