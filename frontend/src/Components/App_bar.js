@@ -55,7 +55,7 @@ function Header() {
     <AppBar position="static">
       <Container maxWidth="xl" style={{ backgroundColor: "#004658" }}>
         <Toolbar disableGutters>
-          <img src="./logo.png" style={{}} />
+          <img src="./logo.png" style={{ height: "40px" }} />
           <Typography
             variant="h6"
             noWrap
