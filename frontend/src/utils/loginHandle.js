@@ -1,11 +1,12 @@
-import axios from 'axios'
+import axios from "axios";
 
-//change this backend api url || TO DO 
-let baseUrl = "https://manavmalhotra-special-space-waffle-wx7j96jvg452v46r-3001.preview.app.github.dev/api/login"
+//change this backend api url || TO DO
+let baseUrl =
+  "https://manavmalhotra-special-space-waffle-wx7j96jvg452v46r-3001.preview.app.github.dev/api/login";
+// let baseUrl = "http://localhost:5000/api/login";
+const loginHandle = async (info) => {
+  let response = await axios.post(baseUrl, info);
+  return response.data;
+};
 
-const loginHandle = async (info)=>{
-    let response = await axios.post(baseUrl,info)
-    return response.data
-}
-
-export default loginHandle
+export default loginHandle;

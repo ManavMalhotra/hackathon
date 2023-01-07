@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./registration_styles.css";
 
 function Registration() {
@@ -32,7 +33,12 @@ function Registration() {
           <input type="password" placeholder="Password" />
         </div>
         <input type="submit" className="btn" value="Sign up" />
-        <p className="social-text">Or Sign in with social platforms</p>
+        <p className="social-text">
+          Or
+          <Link to={"/login"}>
+            <p style={{ color: "black" }}>Sign In</p>
+          </Link>
+        </p>
         <div className="social-media">
           <a href="#" className="social-icon">
             <i className="fab fa-facebook-f"></i>
