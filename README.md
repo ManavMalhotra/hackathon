@@ -1,3 +1,9 @@
+<center>
+ 
+![notepalv2](https://user-images.githubusercontent.com/64413107/211173838-22dca8c1-4228-4bb2-b7a7-ed7ef22aa2c7.png)
+
+</center>
+
 # NotePal
  " Better Notes, better grades with NotePal"
 
