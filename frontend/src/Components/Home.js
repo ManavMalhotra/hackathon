@@ -10,6 +10,20 @@ function Home() {
   let mainDiv = useRef();
   return (
     <div className="main" ref={mainDiv}>
+      <div className="hero">
+        <div className="info">
+          <h1>Welcome</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio,
+            aperiam. Error, officiis porro. Provident odio, est non placeat
+            mollitia totam, molestias facere iste pariatur quos reiciendis ab
+            architecto! Ratione, iusto?
+          </p>
+        </div>
+        <div className="image">
+          <img src="./Learn.jpg" />
+        </div>
+      </div>
       <ScrollTop parent={mainDiv} />
       <div class="second1">
         <p style={{ fontFamily: "Montserrat" }}>
@@ -23,7 +37,7 @@ function Home() {
         style={{
           display: "flex",
           justifyContent: "center",
-          marginBottom: "30px",
+          marginBottom: "10px",
         }}
       >
         <ArrowDownwardIcon />
@@ -46,7 +60,8 @@ function Home() {
             </Link>
           </Button>
         </div>
-        <div className="button-1">
+
+        <div className="button-2">
           <h3>Study</h3>
           <Button
             style={{ height: "500px", width: "500px", borderRadius: "50%" }}

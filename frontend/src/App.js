@@ -12,6 +12,7 @@ import Study_mainPage from "./Components/Study_components/Study_mainPage";
 import Fun_mainPage from "./Components/Fun_components/Fun_mainPage";
 import Text_input from "./Components/Study_components/Text_input";
 import Image_input from "./Components/Study_components/Image_input";
+import Profile from "./Components/Profile";
 
 function App() {
   return (
@@ -90,6 +91,16 @@ function App() {
             <>
               <Header />
               <Image_input />
+              <Footer />
+            </>
+          }
+        ></Route>
+        <Route
+          path="/profile"
+          element={
+            <>
+              <Header />
+              <Profile />
               <Footer />
             </>
           }

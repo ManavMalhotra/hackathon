@@ -56,7 +56,7 @@ export default function Preview() {
                   height: "430px",
                   width: "80%",
                   borderRadius: "100px",
-                  backgroundColor: "#afc1df",
+                  backgroundColor: "white",
                   display: "flexbox",
                   marginLeft: "5%",
                   paddingLeft: "60px",
@@ -64,9 +64,18 @@ export default function Preview() {
                   paddingTop: "30px",
                 }}
               >
-                <h2 style={{ fontFamily: "Poppins, sans-serif" }}>
-                  Preview of your Post
-                </h2>
+                {/* <div
+                  className="tittle"
+                  style={{
+                    marginTop: "-90px",
+                    backgroundColor: "white",
+                    width: "30px",
+                    boarderRadius: "30px",
+                  }}
+                >
+                  <h2>Preview</h2> */}
+                {/* </div> */}
+                <h2 style={{ fontFamily: "Poppins, sans-serif" }}>Tittle</h2>
                 <p
                   style={{
                     display: "flex",

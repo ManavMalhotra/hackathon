@@ -17,7 +17,7 @@ function Study_mainPage() {
           style={{
             display: "flex",
             justifyContent: "center",
-            marginBottom: "30px",
+            marginBottom: "10px",
           }}
         >
           <ArrowDownwardIcon />
@@ -26,12 +26,12 @@ function Study_mainPage() {
         <br />
 
         <button className="btn-7">
-          <Link to={"./text_input"}>Text as an input</Link>
+          <Link to={"/Study/text_input"}>Text as an input</Link>
         </button>
         <br />
         <br />
         <button className="btn-7">
-          <Link to={"./image_input"}>Image as an input</Link>
+          <Link to={"/study/image_input"}>Image as an input</Link>
         </button>
         <br />
         <br />

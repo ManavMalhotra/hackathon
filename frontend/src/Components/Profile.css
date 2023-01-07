@@ -1,0 +1,65 @@
+.dashboard>h2 {
+    align-items: center;
+    margin-left: 40vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    text-shadow: 4px 4px 4px #aaa;
+    
+}
+.dashboard {
+    background-size: cover;
+    border-radius: 40px;
+    display: flex;
+}
+.empty {
+    /* //height: 30vh; */
+    display: flex;
+}
+.e-img {
+    margin-left: 10vw;
+    height: 34vh;
+    width: 18vw;
+    align-items: center;
+
+    margin-top: 10vh;
+}
+
+.e-img>img {
+    height: 34vh;
+    width: 18vw;
+    /* margin-top: 15vh;
+    margin-left: 18vw; */
+}
+.details {
+    margin-left: 20vw;
+    margin-top: 8vh;
+    display: flex;
+    margin-bottom: 9vh;
+    box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+        0 15px 40px rgba(166, 173, 201, 0.2);
+    height: 55vh;
+    width: 60vw;
+    border-radius: 10%;
+    background-color: beige;
+    font-family: "Cormorant SC", seri;
+    font-size: 4.5rem;
+    font-weight: 500;
+    /* font-family: 'Tangerine', serif;
+    font-family: 'Tangerine', serif;
+  font-size: 48px;
+  text-shadow: 4px 4px 4px #aaa; */
+    /* font-size: 4rem; */
+    /* text-shadow: 4px 4px 4px #aaa; */
+
+    /* align-items: center; */
+}
+.details>h5 {
+    margin-top: 8vh;
+    margin-left: 8vw;
+    align-items: center;
+    font-size: 2rem;
+}
+
+details>h4 {
+    margin: 8vw;
+}

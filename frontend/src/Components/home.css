@@ -44,7 +44,29 @@
     text-align: center;
 }
 .button-2>h3 {
+    font-family: "Poppins", sans-serif;
     text-align: center;
+}
+.button-1{
+    margin-right: 50px;
+}
+.button-2 {
+    margin-left: 50px;
+}
+
+.hero{
+    display: flex;
+}
+.info{
+    margin-top: 20vh;
+width: 45vw;
+}
+.info > p{
+    padding: 30px;
+}
+.image > img{
+    height: 500px;
+    width: 700px
 }
 
 @media (max-width: 570px) {

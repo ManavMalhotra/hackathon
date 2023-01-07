@@ -55,7 +55,7 @@ function Header() {
     <AppBar position="static">
       <Container maxWidth="xl" style={{ backgroundColor: "#004658" }}>
         <Toolbar disableGutters>
-          <AdbIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />
+          <img src="./logo.png" style={{}} />
           <Typography
             variant="h6"
             noWrap
@@ -71,7 +71,7 @@ function Header() {
               textDecoration: "none",
             }}
           >
-            LOGO
+            NotePal
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
@@ -170,7 +170,7 @@ function Header() {
               textDecoration: "none",
             }}
           >
-            LOGO
+            NotePal
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
             <Button
@@ -224,7 +224,12 @@ function Header() {
                 </Link>
               </MenuItem>
               <MenuItem onClick={handleCloseUserMenu}>
-                <Typography textAlign="center">Profile</Typography>
+                <Link to={"/profile"}>
+                  {" "}
+                  <Typography textAlign="center" style={{ color: "black" }}>
+                    Profile
+                  </Typography>
+                </Link>
               </MenuItem>
               <MenuItem onClick={handleCloseUserMenu}>
                 <Typography textAlign="center">Logout</Typography>
