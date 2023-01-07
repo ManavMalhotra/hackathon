@@ -177,19 +177,19 @@ function Header() {
               onClick={handleCloseNavMenu}
               sx={{ my: 2, color: "white", display: "block" }}
             >
-              <Link to={"./"}>Home</Link>
+              <Link to={"/"}>Home</Link>
             </Button>
             <Button
               onClick={handleCloseNavMenu}
               sx={{ my: 2, color: "white", display: "block" }}
             >
-              <Link to={"./blog"}>Blogs</Link>
+              <Link to={"/blog"}>Blogs</Link>
             </Button>
             <Button
               onClick={handleCloseNavMenu}
               sx={{ my: 2, color: "white", display: "block" }}
             >
-              <Link to={"./study"}>Study</Link>
+              <Link to={"/study"}>Study</Link>
             </Button>
           </Box>
 
