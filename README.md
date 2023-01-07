@@ -55,7 +55,7 @@ Prerequisites
 ## Authors
 
   -  <a href="https://github.com/ManavMalhotra"> Manav Malhotra </a> 
-  -  <a href="https://github.com/KrishnaSaiChaitanya> Krishna Sai Chaitanya </a>
+  -  <a href="https://github.com/KrishnaSaiChaitanya"> Krishna Sai Chaitanya </a>
   -  <a href="https://github.com/WebShivam"> Shivam Dubey </a>
   -  <a href="https://github.com/Sam-Radnus"> Sambath Sundar</a>
 
