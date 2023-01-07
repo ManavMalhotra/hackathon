@@ -1,7 +1,30 @@
 import React from "react";
+import { useState } from 'react'
+import loginHandle from "../utils/loginHandle.js"
 import "./registration_styles.css";
 
 function Login() {
+  let [name, setName] = useState('')
+  let [username, setUsername] = useState('')
+  let [password, setPassword] = useState('')
+
+  const handleSubmit = async (ev)=>{
+		ev.preventDefault()
+
+		try{
+			let info = {
+				username,
+				password
+				}
+			let user = await loginHandle(info)
+			window.localStorage.setItem(
+				'loggedAppUser', JSON.stringify(user))
+		}catch(err){
+
+		}
+
+	}
+
   return (
     <>
       <div>
@@ -17,15 +40,15 @@ function Login() {
           }}
         /> */}
       </div>
-      <form action="#" className="sign-in-form">
+      <form onSubmit={handleSubmit} className="sign-in-form">
         <h2 className="title">Sign in</h2>
         <div className="input-field">
           <i className="fas fa-user"></i>
-          <input type="text" placeholder="Username" />
+          <input type="text" placeholder="Username" onChange={({ target }) => setUsername(target.value)}/>
         </div>
         <div className="input-field">
           <i className="fas fa-lock"></i>
-          <input type="password" placeholder="Password" />
+          <input type="password" placeholder="Password" onChange={({ target }) => setPassword(target.value)}/>
         </div>
         <input type="submit" value="Login" className="btn solid" />
         <p className="social-text">Or Sign in with social platforms</p>
