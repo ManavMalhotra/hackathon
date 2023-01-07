@@ -1,7 +1,7 @@
 import { IconButton, InputBase } from "@mui/material";
 import React from "react";
 import SearchIcon from "@mui/icons-material/Search";
-import "../blog.css";
+import "./blog.css";
 
 function Blog() {
   return (

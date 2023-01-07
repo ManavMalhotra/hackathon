@@ -27,7 +27,7 @@ function Home() {
         <ArrowDownwardIcon />
       </div>
       <div style={{ display: "flex", justifyContent: "center" }}>
-        <button className="btn">Learn More about our Website</button>
+        <button className="btn-3">Learn More about our Website</button>
       </div>
 
       <div className="selector">
