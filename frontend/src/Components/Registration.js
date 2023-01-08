@@ -1,8 +1,36 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { useState } from 'react'
+import { navigate  } from 'react-router-dom';
+
+import registerHandle from "../utils/registerHandle.js"
 import "./registration_styles.css";
 
 function Registration() {
+  let [name, setName] = useState('')
+  let [username, setUsername] = useState('')
+  let [email, setEmail] = useState('')
+  let [password, setPassword] = useState('')
+
+  const navigate  = navigate();
+
+
+  const handleSubmit = async (ev)=>{
+    ev.preventDefault()
+
+    try{
+      let info = {
+        name,
+        username,
+        password
+        }
+        console.log(info)
+      let user = await registerHandle(info)
+
+    }catch(err){
+
+    }
+
+  }
   return (
     <>
       {/* <div>
@@ -18,27 +46,26 @@ function Registration() {
           }}
         />
       </div> */}
-      <form action="#" className="sign-up-form">
+      <form onSubmit={handleSubmit} className="sign-up-form">
         <h2 className="title">Sign up</h2>
         <div className="input-field">
           <i className="fas fa-user"></i>
-          <input type="text" placeholder="Username" />
+          <input type="text" placeholder="Name" onChange={({ target }) => setName(target.value)} />
+        </div>
+        <div className="input-field">
+          <i className="fas fa-user"></i>
+          <input type="text" placeholder="Username" onChange={({ target }) => setUsername(target.value)} />
         </div>
         <div className="input-field">
           <i className="fas fa-envelope"></i>
-          <input type="email" placeholder="Email" />
+          <input type="email" placeholder="Email" onChange={({ target }) => setEmail(target.value)} />
         </div>
         <div className="input-field">
           <i className="fas fa-lock"></i>
-          <input type="password" placeholder="Password" />
+          <input type="password" placeholder="Password" onChange={({ target }) => setPassword(target.value)} />
         </div>
         <input type="submit" className="btn" value="Sign up" />
-        <p className="social-text">
-          Or
-          <Link to={"/login"}>
-            <p style={{ color: "black" }}>Sign In</p>
-          </Link>
-        </p>
+        <p className="social-text">Or Sign in with social platforms</p>
         <div className="social-media">
           <a href="#" className="social-icon">
             <i className="fab fa-facebook-f"></i>
